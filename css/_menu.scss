@@ -149,33 +149,76 @@ float: left;
 }
 
 // ドリンク
+.menu-1 {
+    @media (min-width: 769px) {
+      display:flex;
+      margin-right: 4rem;
+    }
+}
 .menu-1-1 {
     margin-right: 15rem;
-    float:left;
     @media (min-width: 769px) {
         margin-right: 10rem;
     }
 }
+.menu-2 {
+    @media (min-width: 769px) {
+      display:flex;
+    }
 
+}
 .menu-2-1 {
     margin-right: 18rem;
     float:left;
+        @media (min-width: 769px) {
+        margin-right: 10rem;
+    }
+}
+.menu-1and2 {
+    @media (min-width: 769px) {
+      display:flex;
+    }
 }
 
+.menu-3 {
+    @media (min-width: 769px) {
+      display:flex;
+      margin-right: 3rem;
+    }
+
+}
 .menu-3-1 {
     margin-right: 25.5rem;
     float:left;
       @media (min-width: 769px) {
-          margin-right: 26rem;
+          margin-right: 2rem;
       }
 }
+.menu-4 {
+    @media (min-width: 769px) {
+      display:flex;
+    }
 
+}
 .menu-4-1 {
     margin-right: 18rem;
     float:left;
 }
 
+.menu-3and4 {
+    @media (min-width: 769px) {
+      display:flex;
+    }
+}
+
 // パン
+.menu-5 {
+    @media (min-width: 769px) {
+      display:flex;
+      margin-right: 3rem;
+    }
+
+}
 .menu-5-1 {
     margin-right: 15rem;
     float:left;
@@ -183,12 +226,28 @@ float: left;
         margin-right: 10rem;
     }
 }
+.menu-6 {
+    @media (min-width: 769px) {
+      display:flex;
+    }
 
+}
 .menu-6-1 {
     margin-right: 17rem;
     float:left;
 }
+.menu-5and6 {
+    @media (min-width: 769px) {
+      display:flex;
+    }
+}
+.menu-7 {
+    @media (min-width: 769px) {
+      display:flex;
+      margin-right: 3rem;
+    }
 
+}
 .menu-7-1 {
     margin-right: 15.5rem;
     float:left;
@@ -196,14 +255,27 @@ float: left;
           margin-right: 15.5rem;
       }
 }
-
+.menu-8 {
+    @media (min-width: 769px) {
+      display:flex;
+    }
+}
 .menu-8-1 {
     margin-right: 18.5rem;
     float:left;
 }
-
+.menu-7and8 {
+    @media (min-width: 769px) {
+      display:flex;
+    }
+}
 // パスタ
-
+.menu-9 {
+    @media (min-width: 769px) {
+      display:flex;
+      margin-right: 3rem;
+    }
+}
 .menu-9-1 {
     margin-right: 12rem;
     float:left;
@@ -211,7 +283,11 @@ float: left;
         margin-right: 12rem;
     }
 }
-
+.menu-10 {
+    @media (min-width: 769px) {
+      display:flex;
+    }
+}
 .menu-10-1 {
     margin-right: 13rem;
     float:left;
@@ -219,7 +295,17 @@ float: left;
             margin-right: 13rem;
     }
 }
-
+.menu-9and10 {
+    @media (min-width: 769px) {
+      display:flex;
+    }
+}
+.menu-11 {
+    @media (min-width: 769px) {
+      display:flex;
+      margin-right: 3rem;
+    }
+}
 .menu-11-1 {
     margin-right: 16.5rem;
     float:left;
@@ -227,7 +313,11 @@ float: left;
             margin-right: 16.5rem;
     }
 }
-
+.menu-12 {
+    @media (min-width: 769px) {
+      display:flex;
+    }
+}
 .menu-12-1 {
     margin-right: 13.5rem;
     float:left;
@@ -235,8 +325,19 @@ float: left;
             margin-right: 13.5rem;
     }
 }
+.menu-11and12 {
+    @media (min-width: 769px) {
+      display:flex;
+    }
+}
 
 // スイーツ
+.menu-13 {
+    @media (min-width: 769px) {
+      display:flex;
+      margin-right: 3rem;
+    }
+}
 .menu-13-1 {
     margin-right: 21rem;
     float:left;
@@ -244,7 +345,11 @@ float: left;
         margin-right: 12rem;
     }
 }
-
+.menu-14 {
+    @media (min-width: 769px) {
+      display:flex;
+    }
+}
 .menu-14-1 {
     margin-right: 24rem;
     float:left;
@@ -252,7 +357,17 @@ float: left;
         margin-right: 25rem;
     }
 }
-
+.menu-13and14 {
+    @media (min-width: 769px) {
+      display:flex;
+    }
+}
+.menu-15 {
+    @media (min-width: 769px) {
+      display:flex;
+      margin-right: 3rem;
+    }
+}
 .menu-15-1 {
     margin-right: 19.5rem;
     float:left;
@@ -260,7 +375,11 @@ float: left;
           margin-right: 20rem;
       }
 }
-
+.menu-16 {
+    @media (min-width: 769px) {
+      display:flex;
+    }
+}
 .menu-16-1 {
     margin-right: 22.5rem;
     float:left;
@@ -268,7 +387,11 @@ float: left;
           margin-right: 23rem;
       }
 }
-
+.menu-15and16 {
+    @media (min-width: 769px) {
+      display:flex;
+    }
+}
 .title-box {
     border: 1px solid;
     margin: 0 auto;
