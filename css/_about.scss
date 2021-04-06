@@ -1,0 +1,82 @@
+//
+// サービスのスタイル
+//
+
+.about {
+    width: 100%;
+    @media (min-width: 769px) {
+   padding-bottom: 5rem;
+   display: flex;
+    box-sizing: border-box;
+    }
+}
+
+// 画像(pc左 sp中央)
+.about-item {
+    width: 100%;
+	@media (min-width: 769px) {
+	width: 80%;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    float:left;
+    box-sizing: border-box;
+    }
+   
+}
+.about-item-2 {
+    width: 100%;
+	@media (min-width: 769px) {
+	width: 45%;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    float:left;
+    box-sizing: border-box;
+    }
+   
+}
+// テキスト(pc右 sp下)
+.about-text {
+    margin: 0 auto;
+    width:95%;
+    .about-text2 {
+    display: none;
+    }
+    
+    @media (min-width: 769px) {
+    width: 80%;
+    margin: 0;
+     
+    .about-text1 {
+    display: block;
+    text-align: left;
+    margin-top: 2rem;
+    }
+    .about-text2 {
+    display: block;
+    text-align:left;
+    }
+    }
+}
+.about-text-2 {
+    margin: 0 auto;
+    width:95%;
+    .about-text2 {
+    display: none;
+    }
+    
+    @media (min-width: 769px) {
+    width: 44%;
+    margin: 0;
+    padding: 0rem 0rem 0rem 10rem;
+    
+    .about-text1 {
+    display: block;
+    text-align: left;
+    margin-top: 2rem;
+    }
+    .about-text2 {
+    display: block;
+    text-align:left;
+    }
+    }
+}

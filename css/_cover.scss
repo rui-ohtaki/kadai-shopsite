@@ -1,0 +1,143 @@
+//
+// カバーのスタイル
+//
+
+
+// トップページカバー
+.cover {
+    display:relative;
+    z-index: 1;
+    top: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: $base;
+    background-size: cover;
+    background-position: center;
+    @media (min-width: 769px) {
+    }
+}
+
+.cover-title {
+    position: absolute;
+      top: 45%;
+      left: 50%;
+      -ms-transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    @media (min-width: 769px) {
+        font-size: 5rem;
+        margin-top: 8rem;
+    }
+}
+
+.cover-discription {
+    position: absolute;
+      top: 52%;
+      left: 50%;
+      -ms-transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+    @media (min-width: 769px) {
+        font-size: 3rem;
+        margin-top: 8rem;
+    }
+}
+
+
+// 下層ページカバー
+.sub-cover {
+    display:relative;
+    z-index: 1;
+    top: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 6rem;
+    color: $base;
+    background-size: cover;
+    background-position: center;
+        
+    background-image: url("../images/cover/cover_info.jpg");
+    height: 20rem;
+    
+    @media (min-width: 769px) {
+        height: 30rem;
+    }
+}
+// 下層ページカバー
+.sub-cover-2 {
+    display:relative;
+    z-index: 1;
+    top: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 6rem;
+    color: $base;
+    background-size: cover;
+    background-position: center;
+        
+    background-image: url("../images/cover/cover_about.jpg");
+    height: 20rem;
+    
+    @media (min-width: 769px) {
+        height: 30rem;
+    }
+}
+// 下層ページカバー
+.sub-cover-3 {
+    display:relative;
+    z-index: 1;
+    top: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 6rem;
+    color: $base;
+    background-size: cover;
+    background-position: center;
+        
+    background-image: url("../images/cover/cover_menu.jpg");
+    height: 20rem;
+    
+    @media (min-width: 769px) {
+        height: 30rem;
+    }
+}
+
+.sub-cover-img {
+}
+
+.sub-cover-title {
+    position: absolute;
+      top: 20%;
+      left: 50%;
+      -ms-transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    @media (min-width: 769px) {
+        font-size: 5rem;
+        margin-top: 8rem;
+    }
+}

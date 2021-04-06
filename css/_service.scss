@@ -1,0 +1,83 @@
+//
+// サービスのスタイル
+//
+
+.service {
+    width: 100%;
+    @media (min-width: 769px) {
+        padding-bottom: 5rem;
+        display: flex;
+    }
+}
+.service-2 {
+    width: 100%;
+    @media (min-width: 769px) {
+        padding-bottom: 5rem;
+        display: flex;
+        width: 80%;
+    }
+}
+.service-item {
+    display: flex;
+	width: 44%;
+    padding: 0 1rem;
+    margin:  0 0rem;
+    @media (min-width: 769px) {
+    justify-content: space-between;
+	width: 23%;
+	box-sizing: border-box;
+    }
+}
+.service-item-2 {
+    display: flex;
+	width: 44%;
+    padding: 0 1rem;
+    margin:  0 0rem;
+    @media (min-width: 769px) {
+    justify-content: space-between;
+	width: 30%;
+	box-sizing: border-box;
+    }
+}
+
+.service-item-full {
+	width: 100%;
+}
+.service-item-full img {
+	width: 100%;
+}
+
+.service-item-half {
+	width: 49%;
+}
+
+.service-item-half:nth-child(2n) {
+	padding: 0 2% 0 0;
+}
+.service-item-half img {
+	width: 100%;
+}
+
+.service-item-half {
+	width: 24.25%;
+}
+.service-item-half:nth-child(2n), .gallery-box-half {
+	padding: 0 1% 0 0;
+}
+.service-item-half:last-child {
+	padding: 0 0 0 0;
+}
+
+.service-title {
+    padding: 0rem 0rem 0rem;
+    margin: 1rem 0 0 0;
+    color: #777777;
+    @media (min-width: 769px) {
+        font-size: 2rem;
+    }
+}
+
+.service-text {
+    padding: 0 0rem 0rem;
+    margin: 0 0 2rem 0;
+}

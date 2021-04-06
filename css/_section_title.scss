@@ -1,0 +1,73 @@
+//
+// セクションタイトルのスタイル
+//
+
+
+.section-heading {
+    text-align: left;
+    // margin: 38rem 0rem 0rem 0rem;
+    // padding: 0 2rem;
+    @media (min-width: 769px) {
+    margin: 0rem 0rem 0rem 0rem;
+    }
+}
+
+.section-viewall a{
+    display: none;
+    float: right;
+    margin: 3rem 3rem 0 0rem;
+    font-size: 1.5rem;
+    // font-weight: 700;
+    color: $accent1;
+    @media (min-width: 769px) {
+        float: left;
+        margin: 3rem 3rem 0 3rem;
+        font-size: 2rem;
+        display: block;
+    }
+    }
+
+    
+.section-title {
+    display: inline-block;
+    float: left;
+    // padding-bottom: 1rem;
+    margin: 3rem 0 1rem 3rem;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1;
+    @media (min-width: 769px) {
+    margin: 3rem 0rem 3rem 2rem;
+    font-size: 3rem;
+    }
+}
+.section-heading2 {
+    text-align: left;
+    // margin: 5rem 0rem 0rem 2rem;
+    @media (min-width: 769px) {
+     margin: 0rem 0rem 0rem 2rem;
+    }
+    }
+
+// SHOP
+.section-tille2 {
+    text-align: left;
+    margin: 3rem 0rem 1rem 3rem;
+    font-size: 2.2rem;
+    font-weight: 700;
+    @media (min-width: 769px) {
+    margin: 3rem 0rem 3rem 7rem;
+    font-size: 3rem;
+}
+}
+.section-title3 {
+    text-align: left;
+    margin: 3rem 0rem 1rem 3rem;
+    font-size: 2.2rem;
+    font-weight: 700;
+    @media (min-width: 769px) {
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+}

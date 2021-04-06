@@ -1,0 +1,178 @@
+//
+// サービスのスタイル
+//
+
+// メニューセクション全体(中央)
+.menu {
+    clear: both;
+    @media (min-width: 769px) {
+    padding-bottom: 5rem;
+    display: flex;
+    box-sizing: border-box;
+    }
+}
+
+// 画像群(pc右 sp中央)
+.menu-item {
+    width: 100%;
+	@media (min-width: 769px) {
+	width: 90%;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    float:left;
+    box-sizing: border-box;
+    }
+   
+}
+// 画像群(pc右 sp中央)
+.menu-item-2 {
+    width: 100%;
+	@media (min-width: 769px) {
+	width: 45%;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    float:left;
+    box-sizing: border-box;
+    }
+   
+}
+
+
+// 画像(大) (pc右 sp中央)
+.menu-body-1 {
+    display:relative;
+    margin:0 calc(50% - 50vw);
+    overflow: hidden;
+    @media (min-width: 769px) {
+    margin:0;
+
+}
+}
+// 画像(小)群(pc右 sp中央)
+.menu-body-2 {
+    padding: 0 ;
+    display:flex;
+	@media (min-width: 769px) {
+	display:flex;
+	padding: 0 ;
+	margin:0;
+	justify-content:space-between;
+    }
+    }
+
+// 画像(小) (pc右 sp中央 横並び)
+.menu-body-3 {
+    display:inline;
+justify-content:space-between;
+    margin: 8px;
+    margin-top:0;
+	width: 24%;
+	@media (min-width: 769px) {
+	width: 20%;
+	margin-left: 0rem;
+    margin-right: 0rem;
+    }
+    }
+    
+  
+// テキスト(pc左 sp下)
+.menu-text {
+    margin: 0 auto;
+    .menu-text2 {
+    display: none;
+    }
+    @media (min-width: 769px) {
+    width: 45%;
+    padding: 0rem 2rem 0rem 2rem;
+    
+    .menu-text1 {
+        display: block;
+        text-align: left;
+        margin-top: 2rem;
+    }
+    .menu-text2 {
+    display: block;
+        text-align: left;
+    }
+    }
+}
+.menu-text-2 {
+    margin: 0 auto;
+    .menu-text2 {
+    display: none;
+    }
+    @media (min-width: 769px) {
+    width: 45%;
+    padding: 0rem 6rem 0rem 0rem;
+    
+    .menu-text1 {
+        display: block;
+        text-align: left;
+        margin-top: 2rem;
+    }
+    .menu-text2 {
+    display: block;
+        text-align: left;
+    }
+    }
+}
+.table-title-eng {
+float: left;
+}
+
+.table-title-jp {
+    display: inline-block;
+    color: $accent1;
+    margin: 3rem 15rem 0 2rem;
+}
+
+.table {
+    display: block;
+    width: 250%;
+    padding-bottom: 5rem;
+
+.a {/*table内のtdに対して*/
+  width: 150px;
+   padding: 0rem 3rem 0rem 0rem;/*上下3pxで左右10px*/
+}
+
+.b {/*table内のtdに対して*/
+    padding: 0rem 13rem 0rem 0rem;/*上下3pxで左右10px*/
+        @media (min-width: 769px) {
+    	    float: left;
+    	}
+    }
+        @media (min-width: 769px) {
+            display: none;
+        }
+}
+
+.table-2 {
+      display: none;
+      @media (min-width: 769px) {
+      display: block;
+      width: 600px;
+      padding-bottom: 5rem;
+        .b {/*table内のtdに対して*/
+            padding: 1rem 2rem 0rem 2rem;/*上下3pxで左右10px*/
+        }
+      }
+    }
+
+.table, td {
+    @media (min-width: 769px) {
+    border-bottom: 1px solid $sub2;
+    }
+}
+
+.title-box {
+    border: 1px solid;
+    margin: 0 auto;
+    border-color: $accent1;
+    border-top: transparent; 
+    border-left: transparent;
+    border-right: transparent; 
+    @media (min-width: 769px) {
+    width: 500px;
+    }
+    }

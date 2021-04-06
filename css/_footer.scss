@@ -1,0 +1,19 @@
+//
+// フッターのスタイル
+//
+
+
+// フッター
+.footer {
+    padding: 1rem 3rem 1rem 3rem;
+    font-size: 1.4rem;
+    background-color: #333333;
+    @media (min-width: 769px) {
+    }
+}
+
+.copyright {
+    text-align: center;
+    color: #ffffff;
+    
+}
