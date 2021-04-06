@@ -70,8 +70,9 @@
     @media (min-width: 769px) {
     display: flex;
     margin-bottom: 4rem;
-    width: 450px;
+    width: 40%;
     padding-left: 0rem;
+    font-size: 1.5rem;
     }
     }
     
@@ -129,7 +130,7 @@
     margin: 1rem 0 0 4rem;
     color: black;
     @media (min-width: 769px) {
-    float: left;
+    float: right;
     margin: 1rem 2rem 1rem 0;
     }
 }

@@ -327,7 +327,7 @@ img {
 @media (min-width: 769px) {
   .section-title3 {
     margin-top: 3rem;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 700;
   }
 }
@@ -362,7 +362,7 @@ img {
 @media (min-width: 769px) {
   .service-item {
     justify-content: space-between;
-    width: 23%;
+    width: 25%;
     box-sizing: border-box;
   }
 }
@@ -509,8 +509,9 @@ img {
   .box-3 {
     display: flex;
     margin-bottom: 4rem;
-    width: 450px;
+    width: 40%;
     padding-left: 0rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -578,7 +579,7 @@ img {
 }
 @media (min-width: 769px) {
   .shop_inline-block2-2 {
-    float: left;
+    float: right;
     margin: 1rem 2rem 1rem 0;
   }
 }
@@ -940,7 +941,7 @@ img {
 
 @media (min-width: 769px) {
   .sns-item-2 {
-    width: 450px;
+    width: 100%;
     padding-left: 3rem;
   }
 }
@@ -1182,8 +1183,7 @@ img {
 @media (min-width: 769px) {
   .right-title {
     display: block;
-    float: left;
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: 700;
     line-height: 1;
     margin: 3rem 0rem 3rem 3rem;
@@ -1193,7 +1193,13 @@ img {
 
 @media (min-width: 769px) {
   .right {
-    width: 10%;
+    width: 30%;
+  }
+}
+
+@media (min-width: 769px) {
+  .right h2 {
+    font-size: 2rem;
   }
 }
 
@@ -1214,8 +1220,7 @@ img {
 @media (min-width: 769px) {
   .categories a {
     color: #b19833;
-    float: left;
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: 700;
     line-height: 1;
     margin: 1rem 0rem 1rem 0rem;
