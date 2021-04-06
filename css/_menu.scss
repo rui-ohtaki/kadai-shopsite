@@ -119,50 +119,154 @@ justify-content:space-between;
 .table-title-eng {
 float: left;
 }
-
 .table-title-jp {
     display: inline-block;
     color: $accent1;
+    margin: 3rem 20rem 0 2rem;
+     @media (min-width: 769px) {
+     }
+}
+.table-title-jp-2 {
+    display: inline-block;
+    color: $accent1;
     margin: 3rem 15rem 0 2rem;
+     @media (min-width: 769px) {
+     }
 }
-
-.table {
+.table-title-jp-3 {
+    display: inline-block;
+    color: $accent1;
+    margin: 3rem 18rem 0 2rem;
+     @media (min-width: 769px) {
+     }
+}
+.table-1 {
     display: block;
-    width: 250%;
+    width: 100%;
     padding-bottom: 5rem;
-
-.a {/*table内のtdに対して*/
-  width: 150px;
-   padding: 0rem 3rem 0rem 0rem;/*上下3pxで左右10px*/
-}
-
-.b {/*table内のtdに対して*/
-    padding: 0rem 13rem 0rem 0rem;/*上下3pxで左右10px*/
-        @media (min-width: 769px) {
-    	    float: left;
-    	}
-    }
-        @media (min-width: 769px) {
-            display: none;
-        }
-}
-
-.table-2 {
-      display: none;
-      @media (min-width: 769px) {
-      display: block;
-      width: 600px;
-      padding-bottom: 5rem;
-        .b {/*table内のtdに対して*/
-            padding: 1rem 2rem 0rem 2rem;/*上下3pxで左右10px*/
-        }
-      }
-    }
-
-.table, td {
     @media (min-width: 769px) {
-    border-bottom: 1px solid $sub2;
     }
+}
+
+// ドリンク
+.menu-1-1 {
+    margin-right: 15rem;
+    float:left;
+    @media (min-width: 769px) {
+        margin-right: 10rem;
+    }
+}
+
+.menu-2-1 {
+    margin-right: 18rem;
+    float:left;
+}
+
+.menu-3-1 {
+    margin-right: 25.5rem;
+    float:left;
+      @media (min-width: 769px) {
+          margin-right: 26rem;
+      }
+}
+
+.menu-4-1 {
+    margin-right: 18rem;
+    float:left;
+}
+
+// パン
+.menu-5-1 {
+    margin-right: 15rem;
+    float:left;
+    @media (min-width: 769px) {
+        margin-right: 10rem;
+    }
+}
+
+.menu-6-1 {
+    margin-right: 17rem;
+    float:left;
+}
+
+.menu-7-1 {
+    margin-right: 15.5rem;
+    float:left;
+      @media (min-width: 769px) {
+          margin-right: 15.5rem;
+      }
+}
+
+.menu-8-1 {
+    margin-right: 18.5rem;
+    float:left;
+}
+
+// パスタ
+
+.menu-9-1 {
+    margin-right: 12rem;
+    float:left;
+    @media (min-width: 769px) {
+        margin-right: 12rem;
+    }
+}
+
+.menu-10-1 {
+    margin-right: 13rem;
+    float:left;
+        @media (min-width: 769px) {
+            margin-right: 13rem;
+    }
+}
+
+.menu-11-1 {
+    margin-right: 16.5rem;
+    float:left;
+        @media (min-width: 769px) {
+            margin-right: 16.5rem;
+    }
+}
+
+.menu-12-1 {
+    margin-right: 13.5rem;
+    float:left;
+        @media (min-width: 769px) {
+            margin-right: 13.5rem;
+    }
+}
+
+// スイーツ
+.menu-13-1 {
+    margin-right: 21rem;
+    float:left;
+    @media (min-width: 769px) {
+        margin-right: 12rem;
+    }
+}
+
+.menu-14-1 {
+    margin-right: 24rem;
+    float:left;
+        @media (min-width: 769px) {
+        margin-right: 25rem;
+    }
+}
+
+.menu-15-1 {
+    margin-right: 19.5rem;
+    float:left;
+      @media (min-width: 769px) {
+          margin-right: 20rem;
+      }
+}
+
+.menu-16-1 {
+    margin-right: 22.5rem;
+    float:left;
+          @media (min-width: 769px) {
+          margin-right: 23rem;
+      }
 }
 
 .title-box {
@@ -173,6 +277,6 @@ float: left;
     border-left: transparent;
     border-right: transparent; 
     @media (min-width: 769px) {
-    width: 500px;
+    width: 100%;
     }
     }
