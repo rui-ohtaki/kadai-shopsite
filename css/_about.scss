@@ -15,11 +15,11 @@
 .about-item {
     width: 100%;
 	@media (min-width: 769px) {
-	width: 80%;
     padding-top: 0rem;
     padding-bottom: 0rem;
     float:left;
     box-sizing: border-box;
+    text-align: center;
     }
    
 }
@@ -31,6 +31,7 @@
     padding-bottom: 0rem;
     float:left;
     box-sizing: border-box;
+    text-align: center;
     }
    
 }
@@ -43,8 +44,8 @@
     }
     
     @media (min-width: 769px) {
-    width: 80%;
-    margin: 0;
+    width: 100%;
+
      
     .about-text1 {
     display: block;
@@ -66,17 +67,26 @@
     
     @media (min-width: 769px) {
     width: 44%;
-    margin: 0;
-    padding: 0rem 0rem 0rem 10rem;
+    padding: 0rem 0rem 0rem 0rem;
     
     .about-text1 {
     display: block;
     text-align: left;
-    margin-top: 2rem;
     }
     .about-text2 {
     display: block;
     text-align:left;
+
     }
     }
+}
+p.about-text1{
+   @media (min-width: 769px) {
+    margin: 0;
+   }
+}
+p.about-text2{
+   @media (min-width: 769px) {
+    margin: 0;
+   }
 }

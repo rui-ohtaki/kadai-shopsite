@@ -43,6 +43,7 @@
     padding: 1rem;
     list-style: none;
     @media (min-width: 769px) {
+        padding-left: 0;
         text-align: left;
     }
     li {
@@ -74,7 +75,6 @@
 }
 .sns-item-2 {
     @media (min-width: 769px) {
-    width: 100%;
-    padding-left: 3rem;
+    width: 80%;
 }
 }

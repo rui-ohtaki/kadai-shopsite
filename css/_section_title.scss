@@ -13,17 +13,14 @@
 }
 
 .section-viewall a{
-    display: none;
     float: right;
     margin: 3rem 3rem 0 0rem;
     font-size: 1.5rem;
-    // font-weight: 700;
     color: $accent1;
     @media (min-width: 769px) {
         float: left;
         margin: 3rem 3rem 0 3rem;
         font-size: 2rem;
-        display: block;
     }
     }
 
@@ -37,7 +34,7 @@
     font-weight: 700;
     line-height: 1;
     @media (min-width: 769px) {
-    margin: 3rem 0rem 3rem 2rem;
+    margin: 3rem 0rem 3rem 0rem;
     font-size: 3rem;
     }
 }
@@ -56,7 +53,7 @@
     font-size: 2.2rem;
     font-weight: 700;
     @media (min-width: 769px) {
-    margin: 3rem 0rem 3rem 7rem;
+    margin: 3rem 0rem 3rem 5rem;
     font-size: 3rem;
 }
 }
@@ -66,7 +63,9 @@
     font-size: 2.2rem;
     font-weight: 700;
     @media (min-width: 769px) {
-    margin-top: 3rem;
+    width: 100%;
+    margin: 2rem 0 0 0rem;
+    padding-right: 10rem;
     font-size: 2rem;
     font-weight: 700;
 }

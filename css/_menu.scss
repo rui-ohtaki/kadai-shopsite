@@ -16,10 +16,9 @@
 .menu-item {
     width: 100%;
 	@media (min-width: 769px) {
-	width: 90%;
     padding-top: 0rem;
     padding-bottom: 0rem;
-    float:left;
+    float: left;
     box-sizing: border-box;
     }
    
@@ -31,7 +30,7 @@
 	width: 45%;
     padding-top: 0rem;
     padding-bottom: 0rem;
-    float:left;
+    float: left;
     box-sizing: border-box;
     }
    
@@ -41,36 +40,33 @@
 // 画像(大) (pc右 sp中央)
 .menu-body-1 {
     display:relative;
-    margin:0 calc(50% - 50vw);
+    margin: 0 calc(50% - 50vw);
     overflow: hidden;
     @media (min-width: 769px) {
-    margin:0;
+    margin: 0;
 
 }
 }
 // 画像(小)群(pc右 sp中央)
 .menu-body-2 {
-    padding: 0 ;
+    margin-top: 2rem;
     display:flex;
 	@media (min-width: 769px) {
-	display:flex;
-	padding: 0 ;
-	margin:0;
-	justify-content:space-between;
+	justify-content: space-between;
+	margin-top: 2rem;
     }
     }
 
 // 画像(小) (pc右 sp中央 横並び)
 .menu-body-3 {
     display:inline;
-justify-content:space-between;
+    justify-content: space-between;
     margin: 8px;
     margin-top:0;
 	width: 24%;
 	@media (min-width: 769px) {
 	width: 20%;
-	margin-left: 0rem;
-    margin-right: 0rem;
+	margin: 0rem;
     }
     }
     
@@ -103,7 +99,6 @@ justify-content:space-between;
     }
     @media (min-width: 769px) {
     width: 45%;
-    padding: 0rem 6rem 0rem 0rem;
     
     .menu-text1 {
         display: block;
@@ -116,29 +111,57 @@ justify-content:space-between;
     }
     }
 }
+
+p.menu-text1{
+   @media (min-width: 769px) {
+    margin: 0;
+   }
+}
+p.menu-text2{
+   @media (min-width: 769px) {
+    margin: 0;
+   }
+}
+
+.menu-table {
+    width: 100%;
+    @media (min-width: 769px) {
+    width: 90%;
+     }
+}
+
+.title-box {
+    border: 1px solid;
+    margin: 0 auto;
+    border-color: $accent1;
+    border-top: transparent; 
+    border-left: transparent;
+    border-right: transparent; 
+    @media (min-width: 769px) {
+    width: 100%;
+    text-align: left;
+    }
+    }
+    
 .table-title-eng {
-float: left;
+    float: left;
+    display: inline-block;
+    margin-right: 2rem;
+    @media (min-width: 769px) {
+     }
+}
+h2.table-title-eng {
+    margin-bottom: 0rem;
 }
 .table-title-jp {
     display: inline-block;
     color: $accent1;
-    margin: 3rem 20rem 0 2rem;
      @media (min-width: 769px) {
      }
 }
-.table-title-jp-2 {
-    display: inline-block;
-    color: $accent1;
-    margin: 3rem 15rem 0 2rem;
-     @media (min-width: 769px) {
-     }
-}
-.table-title-jp-3 {
-    display: inline-block;
-    color: $accent1;
-    margin: 3rem 18rem 0 2rem;
-     @media (min-width: 769px) {
-     }
+
+p.table-title-jp {
+    margin-top: 3rem;
 }
 .table-1 {
     display: block;
@@ -150,256 +173,289 @@ float: left;
 
 // ドリンク
 .menu-1 {
-    @media (min-width: 769px) {
-      display:flex;
-      margin-right: 4rem;
-    }
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+     margin: 2rem 4rem 1rem 0rem;
+    @media (min-width: 769px) {   
+    border-bottom: solid #777 thin;
+     margin: 2rem 0rem 1rem 0rem;
+     padding-bottom: 1rem;
+     }
 }
-.menu-1-1 {
-    margin-right: 15rem;
-    @media (min-width: 769px) {
-        margin-right: 10rem;
-    }
-}
+
 .menu-2 {
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+     margin: 0 4 0 0rem;
     @media (min-width: 769px) {
-      display:flex;
+     margin: 2rem 0 1rem 4rem;
+     border-bottom: solid #777 thin;
     }
 
 }
 .menu-2-1 {
-    margin-right: 18rem;
     float:left;
-        @media (min-width: 769px) {
-        margin-right: 10rem;
+    @media (min-width: 769px) {
     }
 }
 .menu-1and2 {
     @media (min-width: 769px) {
       display:flex;
+      width: 100%;
+      justify-content: space-between;
     }
 }
 
 .menu-3 {
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 1rem 4rem 1rem 0rem;
     @media (min-width: 769px) {
-      display:flex;
-      margin-right: 3rem;
+    margin: 1rem 0rem 1rem 0rem;
+   padding-bottom: 1rem;
     }
+}
 
-}
-.menu-3-1 {
-    margin-right: 25.5rem;
-    float:left;
-      @media (min-width: 769px) {
-          margin-right: 2rem;
-      }
-}
 .menu-4 {
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+     margin: 0 4 0 0rem;
     @media (min-width: 769px) {
-      display:flex;
+    margin: 1rem 0 1rem 4rem;
     }
 
 }
 .menu-4-1 {
-    margin-right: 18rem;
     float:left;
+    @media (min-width: 769px) {
+    }
 }
-
 .menu-3and4 {
     @media (min-width: 769px) {
       display:flex;
+      width: 100%;
+    justify-content: space-between;
     }
 }
 
 // パン
 .menu-5 {
-    @media (min-width: 769px) {
-      display:flex;
-      margin-right: 3rem;
-    }
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 1rem 4rem 1rem 0rem;
+     @media (min-width: 769px) {   
+    border-bottom: solid #777 thin;
+    margin: 2rem 0rem 1rem 0rem;
+    padding-bottom: 1rem;
+     }
+     
+}
 
-}
-.menu-5-1 {
-    margin-right: 15rem;
-    float:left;
-    @media (min-width: 769px) {
-        margin-right: 10rem;
-    }
-}
 .menu-6 {
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+     margin: 0 4 0 0rem;
     @media (min-width: 769px) {
-      display:flex;
+     margin: 2rem 0 1rem 4rem;
+     border-bottom: solid #777 thin;
     }
 
 }
 .menu-6-1 {
-    margin-right: 17rem;
     float:left;
+    @media (min-width: 769px) {
+    }
 }
 .menu-5and6 {
     @media (min-width: 769px) {
       display:flex;
+      width: 100%;
+    justify-content: space-between;
     }
 }
+
 .menu-7 {
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 1rem 4rem 1rem 0rem;
     @media (min-width: 769px) {
-      display:flex;
-      margin-right: 3rem;
+    margin: 1rem 0rem 1rem 0rem;
+    padding-bottom: 1rem;
+    }
+}
+
+.menu-8 {
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+     margin: 0 4 0 0rem;
+    @media (min-width: 769px) {
+    margin: 1rem 0 1rem 4rem;
     }
 
 }
-.menu-7-1 {
-    margin-right: 15.5rem;
-    float:left;
-      @media (min-width: 769px) {
-          margin-right: 15.5rem;
-      }
-}
-.menu-8 {
-    @media (min-width: 769px) {
-      display:flex;
-    }
-}
 .menu-8-1 {
-    margin-right: 18.5rem;
     float:left;
+    @media (min-width: 769px) {
+    }
 }
 .menu-7and8 {
     @media (min-width: 769px) {
       display:flex;
+      width: 100%;
+    justify-content: space-between;
     }
 }
+
+
 // パスタ
 .menu-9 {
-    @media (min-width: 769px) {
-      display:flex;
-      margin-right: 3rem;
-    }
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 1rem 4rem 1rem 0rem;
+    @media (min-width: 769px) {   
+    border-bottom: solid #777 thin;
+    margin: 2rem 0rem 1rem 0rem;
+    padding-bottom: 1rem;
+     }
+     
 }
-.menu-9-1 {
-    margin-right: 12rem;
-    float:left;
-    @media (min-width: 769px) {
-        margin-right: 12rem;
-    }
-}
+
 .menu-10 {
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+     margin: 0 4 0 0rem;
     @media (min-width: 769px) {
-      display:flex;
+    margin: 2rem 0 1rem 4rem;
+    border-bottom: solid #777 thin;
     }
+
 }
 .menu-10-1 {
-    margin-right: 13rem;
     float:left;
-        @media (min-width: 769px) {
-            margin-right: 13rem;
+    @media (min-width: 769px) {
     }
 }
 .menu-9and10 {
     @media (min-width: 769px) {
       display:flex;
+      width: 100%;
+    justify-content: space-between;
     }
 }
+
 .menu-11 {
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 1rem 4rem 1rem 0rem;
     @media (min-width: 769px) {
-      display:flex;
-      margin-right: 3rem;
+    margin: 1rem 0rem 1rem 0rem;
+    padding-bottom: 1rem;
     }
 }
-.menu-11-1 {
-    margin-right: 16.5rem;
-    float:left;
-        @media (min-width: 769px) {
-            margin-right: 16.5rem;
-    }
-}
+
 .menu-12 {
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+     margin: 0 4 0 0rem;
     @media (min-width: 769px) {
-      display:flex;
+    margin: 1rem 0 1rem 4rem;
     }
+
 }
 .menu-12-1 {
-    margin-right: 13.5rem;
     float:left;
-        @media (min-width: 769px) {
-            margin-right: 13.5rem;
+    @media (min-width: 769px) {
     }
 }
 .menu-11and12 {
     @media (min-width: 769px) {
       display:flex;
+      width: 100%;
+    justify-content: space-between;
     }
 }
 
+
 // スイーツ
 .menu-13 {
-    @media (min-width: 769px) {
-      display:flex;
-      margin-right: 3rem;
-    }
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 1rem 4rem 1rem 0rem;
+     @media (min-width: 769px) {   
+    border-bottom: solid #777 thin;
+    margin: 2rem 0rem 1rem 0rem;
+    padding-bottom: 1rem;
+     }
+     
 }
-.menu-13-1 {
-    margin-right: 21rem;
-    float:left;
-    @media (min-width: 769px) {
-        margin-right: 12rem;
-    }
-}
+
 .menu-14 {
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+     margin: 0 4 0 0rem;
     @media (min-width: 769px) {
-      display:flex;
+     margin: 1rem 0 1rem 4rem;
+     border-bottom: solid #777 thin;
     }
+
 }
 .menu-14-1 {
-    margin-right: 24rem;
     float:left;
-        @media (min-width: 769px) {
-        margin-right: 25rem;
+    @media (min-width: 769px) {
     }
 }
 .menu-13and14 {
     @media (min-width: 769px) {
       display:flex;
+      width: 100%;
+    justify-content: space-between;
     }
 }
 .menu-15 {
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 1rem 4rem 1rem 0rem;
     @media (min-width: 769px) {
-      display:flex;
-      margin-right: 3rem;
+    margin: 1rem 0rem 1rem 0rem;
+    padding-bottom: 1rem;
     }
 }
-.menu-15-1 {
-    margin-right: 19.5rem;
-    float:left;
-      @media (min-width: 769px) {
-          margin-right: 20rem;
-      }
-}
+
 .menu-16 {
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+     margin: 0 4 0 0rem;
     @media (min-width: 769px) {
-      display:flex;
+    margin: 1rem 0 1rem 4rem;
     }
+
 }
 .menu-16-1 {
-    margin-right: 22.5rem;
     float:left;
-          @media (min-width: 769px) {
-          margin-right: 23rem;
-      }
+    @media (min-width: 769px) {
+    }
 }
 .menu-15and16 {
     @media (min-width: 769px) {
       display:flex;
+      width: 100%;
+    justify-content: space-between;
     }
 }
-.title-box {
-    border: 1px solid;
-    margin: 0 auto;
-    border-color: $accent1;
-    border-top: transparent; 
-    border-left: transparent;
-    border-right: transparent; 
-    @media (min-width: 769px) {
-    width: 100%;
-    }
-    }
+
