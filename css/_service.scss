@@ -83,6 +83,9 @@
 
 .service-text {
     padding: 0 0rem 0rem;
-    margin: 0 0 2rem 1rem;
-    width: 90%;
+    margin: 0 0 2rem 0;
+        @media (min-width: 769px) {
+        margin: 0 0 2rem 1rem;
+        width: 95%;
+        }
 }

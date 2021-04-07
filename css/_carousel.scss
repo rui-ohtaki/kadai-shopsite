@@ -1,24 +1,5 @@
 /*カルーセル*/
 
-
-/*スライド数のドットの色を変える*/
-// .carousel {
-//     display:relative;
-//     z-index: 1;
-//     top: 50px;
-//     align-items: center;
-//     justify-content: center;
-//     flex-direction: column;
-//     height: 30rem;
-//     padding-top: 6rem;
-//     color: $base;
-//     background-size: cover;
-//     background-position: center;
-//     @media (min-width: 769px) {
-//         height: 30rem;
-//     }
-// }
-
 //SPでは非表示
 .carousel-pc {
     display: none;

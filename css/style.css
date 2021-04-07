@@ -180,7 +180,7 @@ img {
   background-size: cover;
   background-position: center;
   background-image: url("../images/cover/cover_info.jpg");
-  height: 20rem;
+  height: 15rem;
 }
 @media (min-width: 769px) {
   .sub-cover {
@@ -201,7 +201,7 @@ img {
   background-size: cover;
   background-position: center;
   background-image: url("../images/cover/cover_about.jpg");
-  height: 20rem;
+  height: 15rem;
 }
 @media (min-width: 769px) {
   .sub-cover-2 {
@@ -222,7 +222,7 @@ img {
   background-size: cover;
   background-position: center;
   background-image: url("../images/cover/cover_menu.jpg");
-  height: 20rem;
+  height: 15rem;
 }
 @media (min-width: 769px) {
   .sub-cover-3 {
@@ -433,8 +433,13 @@ img {
 
 .service-text {
   padding: 0 0rem 0rem;
-  margin: 0 0 2rem 1rem;
-  width: 90%;
+  margin: 0 0 2rem 0;
+}
+@media (min-width: 769px) {
+  .service-text {
+    margin: 0 0 2rem 1rem;
+    width: 95%;
+  }
 }
 
 @media (min-width: 769px) {
@@ -794,7 +799,7 @@ img {
 }
 
 .container-2colum {
-  padding-top: 6rem;
+  padding-top: 4rem;
 }
 @media (min-width: 769px) {
   .container-2colum {
@@ -813,7 +818,6 @@ img {
 }
 @media (min-width: 769px) {
   .container-old {
-    text-align: center;
     padding: 0;
     margin: 0;
   }
@@ -975,7 +979,6 @@ img {
 }
 
 /*カルーセル*/
-/*スライド数のドットの色を変える*/
 .carousel-pc {
   display: none;
 }
@@ -1073,7 +1076,7 @@ img {
 }
 @media (min-width: 769px) {
   .menu-body-3 {
-    width: 20%;
+    width: 23%;
     margin: 0rem;
   }
 }
@@ -1135,11 +1138,6 @@ img {
 
 .menu-table {
   width: 100%;
-}
-@media (min-width: 769px) {
-  .menu-table {
-    width: 90%;
-  }
 }
 
 .title-box {
