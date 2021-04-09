@@ -15,11 +15,26 @@
     padding: 0 0 0 2rem;
     background-color: $black;
     box-sizing: border-box;
+    position: fixed;
     @media (min-width: 769px)   {
-    padding: 0 3rem 0 10rem;
+            height: 5rem;
     }
 }
 
+.logo {
+    display: inherit;
+    margin: 0;
+    @media (min-width: 769px)   {
+    }
+}
+
+a.logo {
+    height: 30px;
+    @media (min-width: 769px)   {
+        height: 30px;
+        margin-left: 6rem;
+    }
+}
 
 // ハンバーガーメニューボタン
 .nav-button {
@@ -47,18 +62,23 @@
     padding: 4rem;
     font-size: 2.4rem;
     text-align: center;
-    background-color: $accent1;
+    background-color: black;
     border-top: 1px solid $black;
     box-sizing: border-box;
 }
 
 .sp-nav-list {
     padding: 0;
-    margin: 0;
+    margin: 45px 0 75px 0;
     list-style: none;
     li {
-        margin-bottom: 4rem;
-
+        font-size: 40px;
+        font-weight: 700;
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-bottom: 55px;
+        a {
+        color: $accent1;
+}
     }
 }
 // PCナビゲーション
@@ -77,7 +97,10 @@
     margin: 0;
     list-style: none;
     li {
-        margin: 0 0 0 5rem;
+        margin: 0 0 0 0rem;
+    }
+    @media (min-width: 769px) {
+    margin: 0 6rem 0 0rem;
     }
 }
 
@@ -85,4 +108,11 @@
     text-decoration: none;
     color: $accent1;
     margin: 0 10rem 0 0rem;
+    @media (min-width: 769px) {
+    text-align: right;
+    margin: 0 3rem 0 0rem;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    }
 }

@@ -3,7 +3,7 @@
 //
 
 .about {
-    width: 100%;
+     clear: both;
     @media (min-width: 769px) {
    padding-bottom: 5rem;
    display: flex;
@@ -17,7 +17,7 @@
 	@media (min-width: 769px) {
     padding-top: 0rem;
     padding-bottom: 0rem;
-    float:left;
+    float: left;
     box-sizing: border-box;
     text-align: center;
     }
@@ -26,10 +26,10 @@
 .about-item-2 {
     width: 100%;
 	@media (min-width: 769px) {
-	width: 45%;
+	width: 50rem;
     padding-top: 0rem;
     padding-bottom: 0rem;
-    float:left;
+    float: left;
     box-sizing: border-box;
     text-align: center;
     }
@@ -45,6 +45,7 @@
     
     @media (min-width: 769px) {
     width: 100%;
+    font-size: 16px;
 
      
     .about-text1 {
@@ -66,8 +67,10 @@
     }
     
     @media (min-width: 769px) {
-    width: 44%;
+    width: 50rem;
     padding: 0rem 0rem 0rem 0rem;
+    margin: 50px 0 0 55px;
+    font-size: 16px;
     
     .about-text1 {
     display: block;
@@ -80,13 +83,13 @@
     }
     }
 }
-p.about-text1{
-   @media (min-width: 769px) {
-    margin: 0;
-   }
-}
-p.about-text2{
-   @media (min-width: 769px) {
-    margin: 0;
-   }
-}
+// p.about-text1{
+//   @media (min-width: 769px) {
+//     margin: 0;
+//   }
+// }
+// p.about-text2{
+//   @media (min-width: 769px) {
+//     margin: 0;
+//   }
+// }

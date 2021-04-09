@@ -11,20 +11,20 @@
         float: left;
         text-align: left;
         border-top: solid #777 thin;
-        margin-top: 3rem;
+        margin-bottom: 50px;
     }
 }
 .shop-bg {
-    padding: 3rem 3rem 3rem;
+    padding: 3rem 3rem 7rem 3rem;
     font-size: 1.4rem;
     background-color: $accent1;
+    @media (min-width: 769px) {
+    height: 330px;
+    padding: 55px 3rem 0px 3rem;
+    }
 }
 
-.shop-bg-2 {
-    padding: 3rem 3rem 3rem;
-    font-size: 1.4rem;
-    background-color: $base;
-}
+
 .shop-logo {
     clear:both;
     margin-bottom: 3.5rem;
@@ -42,6 +42,7 @@
     color: $accent2;
     border-left: transparent;
     border-right: transparent; 
+    font-weight:400;
     @media (min-width: 769px) {
     display: flex;
     margin-bottom: 4rem;
@@ -65,28 +66,18 @@
     
 .box-3 {
     width: 100%;
-    padding-left: 10rem;
+    padding-left: 0rem;
     box-sizing: border-box;
+    
     @media (min-width: 769px) {
     justify-content: space-between;
     font-size: 1.5rem;
     padding-left: 0rem;
-    margin: 1rem 0 1rem 0;
+    margin: 0rem 0 1rem 0;
     }
     }
 
-.upside {
-   @media (min-width: 769px) {
-       display:flex;
-       width: 100%;
-   }
-}
-.downside {
-   @media (min-width: 769px) {
-    display:flex;
-    width: 100%;
-   }
-}
+
 
 .shop_inline-block1 {
     margin: 1rem 1rem 0 5rem;
@@ -103,7 +94,7 @@
     color: #ffffff;
     @media (min-width: 769px) {
     float: left;
-    margin: 1rem 4rem 1rem 0;
+    margin: 1rem 7rem 1rem 0;
     }
 }
 .shop_inline-block3 {
@@ -129,9 +120,10 @@
     float: left;
     color: black;
     display: flex;
+    margin: 0rem 1rem 0rem 10rem;
     @media (min-width: 769px) {
          display:flex;
-         margin-right: 1rem;
+    margin: 0rem 1rem 0rem 0rem;
     }
     }
     
@@ -144,11 +136,12 @@
     }
 }
 .shop_inline-block3-2 {
-    margin: 0 1rem 1rem 0rem;
+    margin: 0 1rem 1rem 10rem;
     float: left;
     color: black;
     @media (min-width: 769px) {
     display:flex;
+     margin: 0rem 1rem 0rem 0rem;
     }
     }
     
@@ -160,6 +153,49 @@
     }
 }
 
+#shop_inline-block1-3 p {
+    margin:  15px 0 0 0rem;
+    padding: 0;
+    color: #ffffff;
+    float: left;
+    font-size: 14px;
+    text-align: center;
+    line-height:1em;
+    }
+    
+#shop_inline-block2-3 p {
+    margin: 15px 0 0 0;
+     padding: 0;
+    color: #ffffff;
+     font-size: 14px;
+     text-align: center;
+     line-height:1em;
+}
+#shop_inline-block3-3 p{
+    margin: 0 0 15px 0rem;
+     padding: 0;
+    color: #ffffff;
+    float: left;
+     font-size: 14px;
+     text-align: center;
+     line-height:1em;
+    }
+    
+#shop_inline-block4-3 p {
+    margin: 0 0 15px 0;
+     padding: 0;
+    color: #ffffff;
+     font-size: 14px;
+     text-align: center;
+     line-height:1em;
+}
+.up {
+    border-top: solid $accent1 thin;
+}
+
+.down {
+    border-bottom: solid $accent1 thin;
+}
 .shop-info {
     color:#ffffff;
     
@@ -218,12 +254,21 @@
     }
 }
 
+.shop-info-hamburger {
+    margin:  15px 0 0 0rem;
+    padding: 0;
+    color: #ffffff;
+    float: left;
+    font-size: 14px;
+    text-align: left;
+    line-height:1em;
+}
 
 #google_map {
      width: 100%;
      height: 250px;
      @media (min-width: 769px) {
      width: 100%;
-     height: 500px;
+     height: 390px;
     }
 }

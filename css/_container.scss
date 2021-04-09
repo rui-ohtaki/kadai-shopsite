@@ -4,14 +4,24 @@
 .container {
     @media  (min-width: 769px) {
     max-width: 100%;
-    padding: 0 5rem 0 5rem;
+    margin: 0 12rem 0 12rem;
+    clear: both;
+}
+}
+
+.container-about {
+    @media  (min-width: 769px) {
+    max-width: 100%;
+    margin: 0 0rem 0 0rem;
+    clear: both;
 }
 }
 .container-2colum {
     padding-top: 4rem;
     @media  (min-width: 769px) {
     max-width: 100%;
-    padding: 0 2rem 0 2rem;
+    margin: 0 9rem 0 9rem;
+        padding-top: 0rem;
 }
 }
 .container-old {
@@ -36,7 +46,9 @@
     box-sizing: border-box;
     @media  (min-width: 769px) {
      flex-direction: row;
-     padding: 0 0 5rem 0;
+     width: 730px;
+     padding: 0;
+     
 }
 }
 .container-2 {
@@ -56,6 +68,7 @@
     text-align: center;
     padding: 0;
     margin: 0;
+    flex-direction: row-reverse;
     }
 }
 

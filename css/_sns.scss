@@ -8,6 +8,7 @@
     list-style: none;
     @media (min-width: 769px) {
         text-align: center;
+        
     }
     li {
         display: inline-block;
@@ -40,7 +41,7 @@
 
 .sns-2 {
     text-align: right;
-    padding: 1rem;
+    margin: 0 20px 0 0;
     list-style: none;
     @media (min-width: 769px) {
         padding-left: 0;
@@ -63,9 +64,9 @@
         }
         @media (min-width: 769px) {
         text-align: center;
-        width: 5rem;
-        height: 5rem;
-        font-size: 2.7rem;
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
         }
     }
 
@@ -73,8 +74,50 @@
         color: $base;
     }
 }
-.sns-item-2 {
+
+.sns-3 {
+    text-align: right;
+    padding: 0;
+    margin: 15px 0 0 0;
+    list-style: none;
     @media (min-width: 769px) {
-    width: 80%;
+        text-align: center;
+    }
+    li {
+        display: inline-block;
+        text-align: center;
+        margin-top: 0;
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.5rem;
+        color: $accent2;
+        background-color: #ffffff;
+        border-radius: 50%;
+        &:first-child {
+            margin-right: 0.5rem;
+        }
+         &:last-child {
+            margin-left: 0.5rem;
+        }
+        // @media (min-width: 769px) {
+        // text-align: center;
+        // width: 5rem;
+        // height: 5rem;
+        // font-size: 2.7rem;
+        // }
+    }
+
+    a {
+        color: $accent1;
+    }
+}
+
+.sns-item-2 {
+    margin: 0 30px 45px 30px;
+    
+    @media (min-width: 769px) {
+    margin-bottom: 110px;
+    width: 260px;
+    margin: 0px 0px 45px 0px;
 }
 }

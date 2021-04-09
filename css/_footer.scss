@@ -5,10 +5,13 @@
 
 // フッター
 .footer {
-    padding: 1rem 3rem 1rem 3rem;
-    font-size: 1.4rem;
+    padding: 1rem 0rem 1rem 0rem;
+    font-size: 12px;
     background-color: #333333;
+    height: 55px;
     @media (min-width: 769px) {
+        height: 3rem;
+        line-height: 50%;
     }
 }
 
