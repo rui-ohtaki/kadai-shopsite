@@ -196,7 +196,6 @@ a.logo {
   color: #ffffff;
   background-size: cover;
   background-position: center;
-  margin-bottom: 100px;
 }
 @media (min-width: 769px) {
   .cover {
@@ -1254,7 +1253,6 @@ a.logo {
 }
 
 .menu-body-2 {
-  margin-top: 2rem;
   display: flex;
 }
 @media (min-width: 769px) {
@@ -1709,9 +1707,8 @@ p.table-title-jp {
 .menu-body-2 li {
   display: inline;
   justify-content: space-between;
-  margin: 8px;
-  margin-top: 0;
-  width: 24%;
+  margin-top: 15px;
+  margin-left: 15px;
 }
 @media (min-width: 769px) {
   .menu-body-2 li {
@@ -1720,6 +1717,11 @@ p.table-title-jp {
     width: 23%;
     margin: 0rem;
   }
+}
+
+ul#menu-body-2.menu-body-2 {
+  margin: 0 8px 0 0;
+  padding: 0;
 }
 
 @media (min-width: 769px) {

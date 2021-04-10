@@ -51,8 +51,7 @@
 }
 // 画像(小)群(pc右 sp中央)
 .menu-body-2 {
-    margin-top: 2rem;
-    display:flex;
+    display: flex;
 	@media (min-width: 769px) {
 	justify-content: space-between;
 	margin-top: 2rem;
@@ -492,19 +491,17 @@ img {
 }
 
 .menu-body-2 {
-     @media (min-width: 769px) {
+    @media (min-width: 769px) {
   display: flex;
   padding: 0;
   list-style: none;
      }
 }
 .menu-body-2 li{
-        display:inline;
+    display:inline;
     justify-content: space-between;
-    margin: 8px;
-    margin-top:0;
-	width: 24%;
-
+    margin-top: 15px;
+    margin-left: 15px;
      @media (min-width: 769px) {
   width: calc(100% / 3);
   cursor: pointer;
@@ -512,3 +509,8 @@ img {
 	margin: 0rem;
     }
     }
+    
+ul#menu-body-2.menu-body-2 {
+ margin: 0 8px 0 0;
+ padding:0;
+}
