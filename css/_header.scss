@@ -21,12 +21,13 @@
             height: 5rem;
             opacity:  0.7;
     }
-}
+    }
 
 .logo {
     display: inherit;
     margin: 0;
     @media (min-width: 769px)   {
+        float: left;
     }
 }
 
@@ -34,10 +35,25 @@ a.logo {
     height: 30px;
     @media (min-width: 769px)   {
         height: 30px;
-        margin-left: 6rem;
+        margin-left: 10rem;
+    }
+}
+.logo-2 {
+    display: black;
+    display: inherit;
+    margin: 0;
+    @media (min-width: 769px)   {
+        display: none;
     }
 }
 
+a.logo {
+    height: 30px;
+    @media (min-width: 769px)   {
+        height: 30px;
+        margin-left: 10rem;
+    }
+}
 // ハンバーガーメニューボタン
 .nav-button {
     display: flex;
@@ -102,7 +118,8 @@ a.logo {
         margin: 0 0 0 0rem;
     }
     @media (min-width: 769px) {
-    margin: 0 6rem 0 0rem;
+    margin: 0 0 0 870px;
+    padding: 0;
     }
 }
 
@@ -116,5 +133,11 @@ a.logo {
     font-size: 20px;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
+    }
+}
+.set-width {
+ 
+    @media (min-width: 769px) {
+        width: 860px;
     }
 }

@@ -476,3 +476,39 @@ p.table-title-jp {
     }
 }
 
+img {
+    @media (min-width: 769px) {
+  max-width: 100%;
+  height: auto;
+  
+    }
+}
+
+.menu-item-2 {
+     @media (min-width: 769px) {
+  max-width: 50rem;
+  margin: auto;
+     }
+}
+
+.menu-body-2 {
+     @media (min-width: 769px) {
+  display: flex;
+  padding: 0;
+  list-style: none;
+     }
+}
+.menu-body-2 li{
+        display:inline;
+    justify-content: space-between;
+    margin: 8px;
+    margin-top:0;
+	width: 24%;
+
+     @media (min-width: 769px) {
+  width: calc(100% / 3);
+  cursor: pointer;
+	width: 23%;
+	margin: 0rem;
+    }
+    }

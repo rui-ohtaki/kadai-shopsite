@@ -4,11 +4,13 @@
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<title>Sample Shop | TOP</title>
-	<meta content="サンプルショップのWebサイト" name="description"><!-- CSS -->
+	<meta content="サンプルショップのWebサイト" name="description">
+	<!-- CSS -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet"><!-- Add the slick-theme.css if you want default styling -->
 	<link href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" rel="stylesheet" type="text/css"><!-- Add the slick-theme.css if you want default styling -->
 	<link href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" rel="stylesheet" type="text/css">
-	<link href="./css/style.css" rel="stylesheet"><!-- FontAwesome -->
+	<link href="./css/style.css" rel="stylesheet">
+	<!-- FontAwesome -->
 
 	<script src="https://kit.fontawesome.com/e30a53ffa2.js">
 	</script>
@@ -16,7 +18,7 @@
 <body>
 	<!-- ヘッダー -->
 	<header class="header">
-		<a class="logo" href="index.html"><img alt="サンプルショップ" src="./images/logo/logo.png"></a>
+		<a class="logo-2" href="index.html"><img alt="サンプルショップ" src="./images/logo/logo.png"></a>
 		<div class="nav-button" id="nav-button">
 			<i aria-label="menu" class="fas fa-bars"></i>
 		</div>
@@ -33,7 +35,6 @@
 					<a href="menu.html">MENU</a>
 				</li>
 			</ul>
-			
 	<div class="shop-hamburger">
 				<!--<div class="box">-->
 				<div class="up">
@@ -76,6 +77,8 @@
 		
 		<!--PCナビゲーション -->
 		<nav class="pc-nav">
+			<div class="set-width">
+				<a class="logo" href="index.html"><img alt="サンプルショップ" src="./images/logo/logo.png"></a>
 			<ul class="pc-nav-list">
 				<li>
 					<a href="information.html">INFORMATION</a>
@@ -87,9 +90,10 @@
 					<a href="menu.html">MENU</a>
 				</li>
 			</ul>
+			</div>
+			
 		</nav>
 	</header>
-	<!-- メイン -->
 	<main>
 		<div class="cover">
 			<h1 class="cover-title">Have a wonderful time</h1>
@@ -175,15 +179,20 @@
 					<a href="menu.html">VIEW ALL＞</a>
 				</div>
 				<div class="container2-old">
+					
 					<div class="menu-item-2">
-						<div class="menu-body-1"><img alt="美味しいホットコーヒー" src="./images/menu/drink_1.jpg"></div><!--<黄枠①>-->
-						<div class="menu-body-2">
-							<div class="menu-body-3"><img alt="美味しいホットコーヒー" src="./images/menu/drink_1.jpg"></div>
-							<div class="menu-body-3"><img alt="美味しいアイスコーヒー" src="./images/menu/drink_2.jpg"></div>
-							<div class="menu-body-3"><img alt="美味しいパン" src="./images/menu/bread_3.jpg"></div>
-							<div class="menu-body-3"><img alt="美味しいスイーツ" src="./images/menu/sweets_4.jpg"></div>
+						<div id="menu-body-1" class="menu-body-1">
+							<img alt="美味しいホットコーヒー" src="./images/menu/drink_1.jpg">
 						</div>
+						
+						<ul id="menu-body-2" class="menu-body-2">
+							<li><img alt="美味しいホットコーヒー" src="./images/menu/drink_1.jpg"></li>
+							<li><img alt="美味しいアイスコーヒー" src="./images/menu/drink_2.jpg"></li>
+							<li><img alt="美味しいパン" src="./images/menu/bread_3.jpg"></li>
+							<li><img alt="美味しいスイーツ" src="./images/menu/sweets_4.jpg"></li>
+						</ul>
 					</div>
+					
 					<div class="menu-text-2">
 						<p class="menu-text1">サンプルショップでは厳選されたコーヒー豆をオーストラリアから輸入。フードは全て有機栽培された材料を契約農家と契約し提供しております。</p>
 						<p class="menu-text2">季節限定のオリジナルスウィーツから、ディナー時も満足いただけるフードメニューをご用意しております。</p>
@@ -203,7 +212,6 @@
 					<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyAK3bPXH0FYSPimfyb_NnlbnA1HOKi0lAQ">
 					</script> 
 					<script>
-					                                                    
 					                                                    function googleMap() {
 					                                                    var latlng = new google.maps.LatLng(35.6804722,139.7676504); /* 座標 */
 					                                                    var myOptions = {
@@ -238,6 +246,8 @@
 					</script>
 				</div>
 			</div>
+			
+			
 			<div class="shop-bg">
 				<div class="shop-logo"><img alt="サンプルショップ" src="./images/logo/logo_white.png"></div>
 				<div class="box">
@@ -275,7 +285,7 @@
 					</li>
 				</ul>
 			</div>
-		</section>
+</section>
 	</main>
 	<!-- フッター -->
 	<footer class="footer">

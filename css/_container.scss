@@ -34,6 +34,7 @@
     @media  (min-width: 769px) {
     padding: 0;
     margin: 0;
+    width: 740px;
 }
 }
 // ABOUT
@@ -46,7 +47,7 @@
     box-sizing: border-box;
     @media  (min-width: 769px) {
      flex-direction: row;
-     width: 730px;
+    width: 740px;
      padding: 0;
      
 }
@@ -69,6 +70,7 @@
     padding: 0;
     margin: 0;
     flex-direction: row-reverse;
+    width: 740px;
     }
 }
 

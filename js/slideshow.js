@@ -1,6 +1,6 @@
 $(window).on("load", function() {
-    $("#thumbnail img").click(function() {
+    $("#menu-body-2 img").click(function() {
         let img_src = $(this).attr("src");
-        $("#slideshow-image img").attr("src", img_src);
+        $("#menu-body-1 img").attr("src", img_src);
     });
 });
