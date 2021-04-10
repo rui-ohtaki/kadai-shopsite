@@ -42,10 +42,12 @@ img {
   background-color: #000000;
   box-sizing: border-box;
   position: fixed;
+  opacity: 0.7;
 }
 @media (min-width: 769px) {
   .header {
     height: 5rem;
+    opacity: 0.7;
   }
 }
 
@@ -192,6 +194,7 @@ a.logo {
     position: absolute;
     top: 25%;
     left: 50%;
+    font-size: 80px;
   }
 }
 
@@ -206,7 +209,7 @@ a.logo {
   text-align: center;
   font-weight: 700;
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 1.5rem;
+  font-size: 24px;
 }
 @media (min-width: 769px) {
   .cover-discription {
@@ -214,6 +217,7 @@ a.logo {
     position: absolute;
     top: 45%;
     left: 50%;
+    font-size: 48px;
   }
 }
 
@@ -370,7 +374,6 @@ a.logo {
 }
 @media (min-width: 769px) {
   .section-tille2 {
-    width: 100%;
     margin: 2rem 0 25px 12rem;
     font-size: 24px;
   }
@@ -385,7 +388,6 @@ a.logo {
 }
 @media (min-width: 769px) {
   .section-title3 {
-    width: 100%;
     margin: 2rem 0 25px 0rem;
     font-size: 24px;
   }
@@ -498,6 +500,10 @@ a.logo {
     font-weight: 400;
     font-size: 16px;
   }
+}
+
+.service-img {
+  box-shadow: 13px 13px 13px 13px rgba(0, 0, 0, 0.1);
 }
 
 @media (min-width: 769px) {
@@ -872,16 +878,18 @@ a.logo {
   .about-text-2 {
     width: 50rem;
     padding: 0rem 0rem 0rem 0rem;
-    margin: 50px 0 0 55px;
+    margin: 0px 0 0 55px;
     font-size: 16px;
   }
   .about-text-2 .about-text1 {
     display: block;
     text-align: left;
+    margin-bottom: 20px;
   }
   .about-text-2 .about-text2 {
     display: block;
     text-align: left;
+    margin-bottom: 20px;
   }
 }
 
@@ -1267,16 +1275,17 @@ a.logo {
   .menu-text-2 {
     width: 50rem;
     padding: 0rem 0rem 0rem 0rem;
-    margin: 50px 55px 0 0px;
+    margin: 55px 55px 0 0px;
   }
   .menu-text-2 .menu-text1 {
     display: block;
     text-align: left;
-    margin-top: 2rem;
+    margin-bottom: 20px;
   }
   .menu-text-2 .menu-text2 {
     display: block;
     text-align: left;
+    margin-bottom: 20px;
   }
 }
 

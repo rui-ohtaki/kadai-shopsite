@@ -16,8 +16,10 @@
     background-color: $black;
     box-sizing: border-box;
     position: fixed;
+    opacity:  0.7;
     @media (min-width: 769px)   {
             height: 5rem;
+            opacity:  0.7;
     }
 }
 
