@@ -470,7 +470,7 @@ a.logo {
 @media (min-width: 769px) {
   .service-item-2 {
     justify-content: space-between;
-    width: 230px;
+    width: 225px;
     box-sizing: border-box;
     padding: 0;
     margin-right: 20px;
@@ -717,7 +717,7 @@ a.logo {
 }
 
 #shop_inline-block1-3 p {
-  margin: 15px 0 0 0rem;
+  margin: 15px 0 0 45px;
   padding: 0;
   color: #ffffff;
   float: left;
@@ -727,7 +727,7 @@ a.logo {
 }
 
 #shop_inline-block2-3 p {
-  margin: 15px 0 0 0;
+  margin: 15px 0 0 0px;
   padding: 0;
   color: #ffffff;
   font-size: 14px;
@@ -736,7 +736,7 @@ a.logo {
 }
 
 #shop_inline-block3-3 p {
-  margin: 0 0 15px 0rem;
+  margin: 0px 0 0 45px;
   padding: 0;
   color: #ffffff;
   float: left;
@@ -746,7 +746,6 @@ a.logo {
 }
 
 #shop_inline-block4-3 p {
-  margin: 0 0 15px 0;
   padding: 0;
   color: #ffffff;
   font-size: 14px;
@@ -756,10 +755,15 @@ a.logo {
 
 .up {
   border-top: solid #b19833 thin;
+  width: 235px;
+  text-align: center;
+  margin-left: 30px;
 }
 
 .down {
   border-bottom: solid #b19833 thin;
+  width: 235px;
+  margin-left: 30px;
 }
 
 .shop-info {
@@ -1715,7 +1719,6 @@ p.table-title-jp {
     width: calc(100% / 3);
     cursor: pointer;
     width: 23%;
-    margin: 0rem;
   }
 }
 
