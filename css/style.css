@@ -986,6 +986,7 @@ a.logo {
     flex-direction: row;
     width: 740px;
     padding: 0;
+    margin-bottom: 48px;
   }
 }
 
@@ -1096,8 +1097,9 @@ a.logo {
 
 .sns-2 {
   text-align: right;
-  margin: 0 20px 0 0;
+  margin: 0 20px 0px 0;
   list-style: none;
+  float: right;
 }
 @media (min-width: 769px) {
   .sns-2 {

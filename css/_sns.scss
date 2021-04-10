@@ -41,8 +41,9 @@
 
 .sns-2 {
     text-align: right;
-    margin: 0 20px 0 0;
+    margin: 0 20px 0px 0;
     list-style: none;
+    float: right;
     @media (min-width: 769px) {
         padding-left: 0;
         text-align: left;
