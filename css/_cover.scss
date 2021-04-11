@@ -7,7 +7,7 @@
 .cover {
     display:relative;
     z-index: 1;
-    top: 50px;
+    top: 50%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -17,6 +17,7 @@
     @media (min-width: 769px) {
         height: 760px;
         box-sizing: border-box;
+        margin-bottom: 120px;
     }
 }
 
@@ -57,6 +58,7 @@
         font-weight: 700;
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 24px;
+        white-space: nowrap;
     @media (min-width: 769px) {
         font-size: 3rem;
         position: absolute;
@@ -83,11 +85,12 @@
     height: 15rem;
     
     @media (min-width: 769px) {
-        margin-bottom: 100px;
+        margin-bottom: 120px;
          height: 400px;
         box-sizing: border-box;
     }
 }
+
 // 下層ページカバー
 .sub-cover-2 {
     display:relative;
@@ -107,7 +110,7 @@
     @media (min-width: 769px) {
          height: 400px;
         box-sizing: border-box;
-         margin-bottom: 100px;
+         margin-bottom: 120px;
     }
 }
 // 下層ページカバー
@@ -129,7 +132,7 @@
     @media (min-width: 769px) {
          height: 400px;
         box-sizing: border-box;
-         margin-bottom: 100px;
+         margin-bottom: 120px;
     }
 }
 

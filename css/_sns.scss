@@ -36,7 +36,7 @@
 
     a {
         color: $accent1;
-    }
+        }
 }
 
 .sns-2 {
@@ -44,6 +44,7 @@
     margin: 0 20px 0px 0;
     list-style: none;
     float: right;
+    padding-left: 0;
     @media (min-width: 769px) {
         padding-left: 0;
         text-align: left;
@@ -70,10 +71,9 @@
         font-size: 20px;
         }
     }
-
     a {
         color: $base;
-    }
+        }
 }
 
 .sns-3 {
@@ -100,17 +100,10 @@
          &:last-child {
             margin-left: 0.5rem;
         }
-        // @media (min-width: 769px) {
-        // text-align: center;
-        // width: 5rem;
-        // height: 5rem;
-        // font-size: 2.7rem;
-        // }
     }
-
     a {
         color: $accent1;
-    }
+        }
 }
 
 .sns-item-2 {

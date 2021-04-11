@@ -224,7 +224,12 @@
 
 }
 }
-
+.shop-info2 {
+    margin-bottom: 70px;
+     @media (max-width: 768px) {
+    float: left;
+     }
+}
 .shop-info-2 {
     color: black;
    
