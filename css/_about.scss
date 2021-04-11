@@ -37,8 +37,9 @@
 }
 // テキスト(pc右 sp下)
 .about-text {
-    margin: 0 auto;
+    margin: 20px 0 45px 0;
     width:95%;
+    
     .about-text2 {
     display: none;
     }
@@ -46,7 +47,6 @@
     @media (min-width: 769px) {
     width: 100%;
     font-size: 16px;
-
      
     .about-text1 {
     display: block;

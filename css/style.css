@@ -125,6 +125,7 @@ a.logo {
   background-color: black;
   border-top: 1px solid #000000;
   box-sizing: border-box;
+  opacity: 0.9;
 }
 
 .sp-nav-list {
@@ -542,6 +543,16 @@ a.logo {
 .service-img {
   box-shadow: 13px 13px 13px 13px rgba(0, 0, 0, 0.1);
 }
+@media (min-width: 769px) {
+  .service-img {
+    box-shadow: 13px 13px 13px 13px rgba(0, 0, 0, 0.1);
+  }
+}
+@media (max-width: 768px) {
+  .service-img {
+    box-shadow: 13px 13px 13px 13px rgba(0, 0, 0, 0.1);
+  }
+}
 
 @media (min-width: 769px) {
   .shop {
@@ -886,7 +897,7 @@ a.logo {
 }
 
 .about-text {
-  margin: 0 auto;
+  margin: 20px 0 45px 0;
   width: 95%;
 }
 .about-text .about-text2 {
@@ -936,8 +947,8 @@ a.logo {
 
 @media (min-width: 769px) {
   .container {
-    max-width: 100%;
-    margin: 0 12rem 0 12rem;
+    width: 100%;
+    margin: 0 120px 0 120px;
     clear: both;
   }
 }
@@ -974,6 +985,38 @@ a.logo {
     padding: 0;
     margin: 0;
     width: 740px;
+  }
+}
+
+.container-old-top {
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 2rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+@media (min-width: 769px) {
+  .container-old-top {
+    padding: 0;
+    margin: 0;
+    width: 1080px;
+  }
+}
+
+.container-old-top {
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 2rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+@media (min-width: 769px) {
+  .container-old-top {
+    padding: 0;
+    margin: 0;
+    width: 1080px;
   }
 }
 
@@ -1015,6 +1058,24 @@ a.logo {
     margin: 0;
     flex-direction: row-reverse;
     width: 740px;
+  }
+}
+
+.container2-old-top {
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 2rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+@media (min-width: 769px) {
+  .container2-old-top {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    flex-direction: row-reverse;
+    width: 1080px;
   }
 }
 
