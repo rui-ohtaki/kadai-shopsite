@@ -6,56 +6,103 @@
 // ヘッダー
 .header {
     top: 0;
-    // display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 100;
+    z-index: 4;
     width: 100%;
     height: 6rem;
-    padding: 1rem 0 0 2rem;
     background-color: $black;
     box-sizing: border-box;
     position: fixed;
-    opacity: 0.7;
+    background-color: rgba(0, 0, 0, .7);
     @media (min-width: 769px)   {
-            height: 5rem;
-            opacity: 0.7;
+    height: 5rem;
+    padding-top: 10px;
     }
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
          display: flex;
     }
     }
+    
+.header-inner {
+    display: block;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+    width: 100%;
+    height: 6rem;
+    padding: 1rem 0 0 0rem;
+    background-color: $black;
+    box-sizing: border-box;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+    padding-left: 10px;
+    
+    @media (min-width: 769px)   {
+    display: none
+    }
+}
 
+  
 .logo {
     display: inherit;
-    margin: 0 0 0 13px;
+    padding: 0 0 0 30px;
     @media (min-width: 769px)   {
         float: left;
     }
+    @media (max-width: 768px) {
+     padding: 0 0 0 20px;
+     }
+     
+.logo-about {
+    display: inherit;
+    padding: 0 0 0 30px;
+    @media (min-width: 769px)   {
+        float: left;
+    }
+    @media (max-width: 768px) {
+     padding: 0 0 0 25px;
+     }
+}
+
+a.logo-about {
+    @media (max-width: 768px) {
+        padding-left: 30px;
+    }
 }
 
 a.logo {
     height: 30px;
     @media (min-width: 769px)   {
         height: 30px;
+        margin-left: 120px;
     }
+         @media (max-width: 768px)   {
+         margin-left: 15px;
+     }
+}
 }
 .logo-2 {
-    display: black;
+    display: block;
     display: inherit;
     margin: 0;
-     margin-left: 13px;
+     margin-left: 20px;
     @media (min-width: 769px)   {
-        display: none;
+        // display: none;
     }
-}
+     @media (max-width: 768px)   {
+         margin-left: 20px;
+     }
 
 a.logo {
     height: 30px;
     @media (min-width: 769px)   {
-        height: 30px;
-        margin-left: 10rem;
+        height: 25px;
+   
     }
+}
 }
 // ハンバーガーメニューボタン
 .nav-button {
@@ -67,10 +114,14 @@ a.logo {
     font-size: 3.1rem;
     color: $accent1;
     cursor: pointer;
-    margin-right: 13px;
+    margin-left: 0px;
+    margin-right: 0px;
     @media (min-width: 769px)  {
         display: none;
     }
+       @media (max-width: 768px)   {
+          margin-right: 20px;
+       }
 }
 
 // SPナビゲーション
@@ -79,20 +130,20 @@ a.logo {
     top: 6rem;
     left: 0;
     display: none;
-    z-index: 1000;
+    z-index: 4;
     width: 100%;
-    padding: 4rem;
+    padding: 3rem;
     font-size: 2.4rem;
     text-align: center;
     background-color: black;
     border-top: 1px solid $black;
     box-sizing: border-box;
-     opacity: 0.9;
+    background-color: rgba(0, 0, 0, .9);
 }
 
 .sp-nav-list {
     padding: 0;
-    margin: 45px 0 75px 0;
+    margin: 40px 0 0px 0;
     list-style: none;
     li {
         font-size: 40px;
@@ -109,6 +160,7 @@ a.logo {
     display: none;
     @media (min-width: 769px) {
         display: block;
+        padding-left: 100px;
     }
 }
 
@@ -123,7 +175,7 @@ a.logo {
         margin: 0 0 0 0rem;
     }
     @media (min-width: 769px) {
-    margin: 0 0 0 870px;
+    margin: 0 0 0 780px;
     padding: 0;
     }
 }

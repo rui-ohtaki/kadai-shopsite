@@ -93,11 +93,11 @@
 }
 
 .service-img {
-    box-shadow: 13px 13px 13px 13px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 1.3rem rgb(0 0 0 / 10%);
     @media (min-width: 769px) {
-    box-shadow: 13px 13px 13px 13px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 1.3rem rgb(0 0 0 / 10%);
     }
     @media (max-width: 768px) {
-    box-shadow: 13px 13px 13px 13px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 1.3rem rgb(0 0 0 / 10%);
     }
 }
