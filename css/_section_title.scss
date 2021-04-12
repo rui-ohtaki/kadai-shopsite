@@ -25,7 +25,7 @@
 .section-title {
     display: inline-block;
     float: left;
-    margin: 3rem 0 1rem 3rem;
+    margin: 0rem 0 0rem 3rem;
     font-size: 2.2rem;
     font-weight: 700;
     font-family: 'Roboto Condensed', sans-serif;
@@ -33,6 +33,10 @@
     @media (min-width: 769px) {
     margin: 3rem 0rem 5rem 0rem;
     font-size: 3.5rem;
+    }
+    @media (max-width: 768px) {
+    margin: 3rem 0rem 20px 20px;
+    font-size: 28px;
     }
 }
 
@@ -44,7 +48,7 @@
     }
 
 // SHOP
-.section-tille2 {
+.section-title2 {
     text-align: left;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 2.2rem;

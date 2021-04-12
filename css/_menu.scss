@@ -147,6 +147,24 @@
     }
     }
     
+.title-box-drink {
+    border: 1px solid;
+    margin: 0 auto;
+    border-color: $accent1;
+    border-top: transparent; 
+    border-left: transparent;
+    border-right: transparent; 
+    @media (min-width: 769px) {
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    }
+    @media (max-width: 768px) {
+        margin-top: 30px;
+    }
+    }
+    
 .table-title-eng {
     float: left;
     display: inline-block;
@@ -156,8 +174,25 @@
         line-height:1em;
      }
 }
+
+.table-title-eng-drink {
+    float: left;
+    display: inline-block;
+    margin-right: 2rem;
+    @media (min-width: 769px) {
+        float: none;
+        line-height:1em;
+     }
+     @media (min-width: 769px) {
+    float: none;
+    line-height:1em;
+    margin-top: 30px;
+     }
+}
+
 h2.table-title-eng {
-    margin-bottom: 0rem;
+    margin-top: 0rem;
+    margin-bottom: 0px;
     font-size: 2.2rem;
     font-weight: 700;
     font-family: 'Roboto Condensed', sans-serif;
@@ -175,7 +210,8 @@ h2.table-title-eng {
 }
 
 p.table-title-jp {
-    margin-top: 3rem;
+    margin-top: 7px;
+    margin-bottom: 5px;
     @media (min-width: 769px) {
         margin: 0;
      }
@@ -524,13 +560,15 @@ img {
     margin-left: 0;
     }
 }
-    
 
 ul#menu-body-2.menu-body-2 {
-    margin: 0 8px 0 0;
+    margin: 0 8px 30px 0;
     padding: 0;
     @media (min-width: 769px) {
-    margin: 0;
+    margin: 0 0 45px 0;
+    }
+    @media (max-width: 768px) {
+    margin: 0 0px 0px 0;
     }
 }
 
@@ -572,15 +610,19 @@ ul#menu-body-2.menu-body-2 {
     }
     
 ul#menu-body-bread-2.menu-body-bread-2 {
-    margin: 0 0 0 0;
+    margin: 0 0 30px 0;
     padding: 0;
     @media (min-width: 769px) {
-    margin: 0;
+    margin: 0 0 45px 0;
   }
 }
 
 .menu-body-bread-2 li:last-child {
     margin-right: 0;
+}
+
+.menu-body-bread-2 li:first-child {
+    margin-left: 0;
 }
 
 // パスタスライドショー
@@ -619,10 +661,10 @@ ul#menu-body-bread-2.menu-body-bread-2 {
 }
     
 ul#menu-body-pasta-2.menu-body-pasta-2 {
-    margin: 0 0 0 0;
+    margin: 0 0 30px 0;
     padding:0;
     @media (min-width: 769px) {
-    margin: 0;
+    margin: 0 0 45px 0;
     }
 }
 .menu-body-pasta-2 li:last-child {
@@ -665,10 +707,10 @@ ul#menu-body-pasta-2.menu-body-pasta-2 {
 }
     
 ul#menu-body-sweets-2.menu-body-sweets-2 {
-    margin: 0 0 0 0;
+    margin: 0 0 30px 0;
     padding:0;
     @media (min-width: 769px) {
-    margin: 0;
+    margin: 0 0 45px 0;
     }
 }
 .menu-body-sweets-2 li:last-child {
