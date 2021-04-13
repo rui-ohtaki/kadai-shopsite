@@ -17,9 +17,9 @@
 }
 .service-item {
     display: flex;
-	width: 44%;
-    padding: 0 1rem;
-    margin:  0 0rem;
+	width: 47%;
+    // padding: 0 1rem;
+    // margin:  0 0rem;
     @media (min-width: 769px) {
     justify-content: space-between;
 	width: 23%;
@@ -27,7 +27,30 @@
 	padding: 0;
     margin-right: 2rem;
     }
+    @media (max-width: 768px) {
+        padding-right: 2rem;
+    }
 }
+
+.service-item:nth-child(1) {
+    @media (max-width: 768px) {
+    padding-left: 0;
+     }
+}
+
+.service-item:nth-child(2) {
+     @media (max-width: 768px) {
+    padding-right: 0;
+     }
+}
+.service-item:nth-child(3) {
+    padding-left: 0;
+}
+
+.service-item:nth-child(4) {
+    padding-right: 0;
+}
+
 .service-item-2 {
     display: flex;
 	width: 44%;
