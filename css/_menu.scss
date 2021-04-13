@@ -10,6 +10,8 @@
     padding-bottom: 5rem;
     display: flex;
     box-sizing: border-box;
+    max-width: 1080px;
+    margin: 0 auto;
     }
 }
 
@@ -29,14 +31,17 @@
 .menu-item-2 {
     width: 100%;
 	@media (min-width: 769px) {
-	width: 50rem;
+// 	width: 50rem;
     padding-top: 0rem;
     padding-bottom: 0rem;
     box-sizing: border-box;
      width: 730px;
-    }
-   
+    max-width: 50rem;
+    margin: auto;
+     margin-right: 0;
+     }
 }
+
 
 
 // 画像(大) (pc右 sp中央)
@@ -80,7 +85,7 @@
     display: none;
     }
     @media (min-width: 769px) {
-    width: 45%;
+    width: 46%;
     padding: 0rem 2rem 0rem 2rem;
     .menu-text1 {
         display: block;
@@ -89,7 +94,7 @@
     }
     .menu-text2 {
     display: block;
-        text-align: left;
+    text-align: left;
     }
     }
 }
@@ -100,9 +105,9 @@
     display: none;
     }
     @media (min-width: 769px) {
-    width: 50rem;
+    width: 46%;
     padding: 0rem 0rem 0rem 0rem;
-    margin: 55px 55px 0 0px;
+    margin: 55px 0px 0 0px;
     
     .menu-text1 {
         display: block;
@@ -520,12 +525,12 @@ img {
     }
 }
 
-.menu-item-2 {
-     @media (min-width: 769px) {
-  max-width: 50rem;
-  margin: auto;
-     }
-}
+// .menu-item-2 {
+//      @media (min-width: 769px) {
+//   max-width: 50rem;
+//   margin: auto;
+//      }
+// }
 
 
 
