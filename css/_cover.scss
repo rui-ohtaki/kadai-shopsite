@@ -5,7 +5,7 @@
 
 // トップページカバー
 .cover {
-    display:relative;
+    position:　relative;
     z-index: 1;
     top: 50%;
     align-items: center;
@@ -24,7 +24,7 @@
 
 .cover-title {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     -ms-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
@@ -39,13 +39,12 @@
     white-space: nowrap;
     @media (min-width: 769px) {
     font-size: 80px;
-    top: 50%;
     }
 }
 
 .cover-discription {
     position: absolute;
-    top: 45%;
+    top: 55%;
     left: 50%;
     -ms-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
@@ -59,8 +58,8 @@
     font-size: 24px;
     white-space: nowrap;
     @media (min-width: 769px) {
-    font-size: 48px;
     top: 60%;
+    font-size: 48px;
     }
 }
 

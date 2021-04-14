@@ -251,7 +251,7 @@ img {
 }
 
 .cover {
-  display: relative;
+  position: 　relative;
   z-index: 1;
   top: 50%;
   align-items: center;
@@ -272,7 +272,7 @@ img {
 
 .cover-title {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
@@ -289,13 +289,12 @@ img {
 @media (min-width: 769px) {
   .cover-title {
     font-size: 80px;
-    top: 50%;
   }
 }
 
 .cover-discription {
   position: absolute;
-  top: 45%;
+  top: 55%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
@@ -311,8 +310,8 @@ img {
 }
 @media (min-width: 769px) {
   .cover-discription {
-    font-size: 48px;
     top: 60%;
+    font-size: 48px;
   }
 }
 
