@@ -5,7 +5,7 @@
 
 // トップページカバー
 .cover {
-    position:　relative;
+    position: relative;
     z-index: 1;
     top: 50%;
     align-items: center;
@@ -58,8 +58,8 @@
     font-size: 24px;
     white-space: nowrap;
     @media (min-width: 769px) {
-    top: 60%;
     font-size: 48px;
+    top: 60%;
     }
 }
 

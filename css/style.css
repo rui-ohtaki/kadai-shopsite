@@ -251,7 +251,7 @@ img {
 }
 
 .cover {
-  position: 　relative;
+  position: relative;
   z-index: 1;
   top: 50%;
   align-items: center;
@@ -310,8 +310,8 @@ img {
 }
 @media (min-width: 769px) {
   .cover-discription {
-    top: 60%;
     font-size: 48px;
+    top: 60%;
   }
 }
 
