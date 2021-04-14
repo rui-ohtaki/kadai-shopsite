@@ -289,6 +289,7 @@ img {
 @media (min-width: 769px) {
   .cover-title {
     font-size: 80px;
+    top: 50%;
   }
 }
 
@@ -311,7 +312,7 @@ img {
 @media (min-width: 769px) {
   .cover-discription {
     font-size: 48px;
-    margin-top: 4%;
+    top: 60%;
   }
 }
 
