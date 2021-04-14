@@ -260,6 +260,7 @@ img {
   color: #ffffff;
   background-size: cover;
   background-position: center;
+  white-space: nowrap;
 }
 @media (min-width: 769px) {
   .cover {
@@ -271,6 +272,28 @@ img {
 
 .cover-title {
   position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 32px;
+  white-space: nowrap;
+}
+@media (min-width: 769px) {
+  .cover-title {
+    font-size: 80px;
+  }
+}
+
+.cover-discription {
+  position: absolute;
   top: 45%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
@@ -279,31 +302,6 @@ img {
   margin: 0;
   padding: 0;
   z-index: 2;
-  width: 100%;
-  text-align: center;
-  font-weight: 700;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 32px;
-}
-@media (min-width: 769px) {
-  .cover-title {
-    font-size: 5rem;
-    margin-top: 8rem;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    font-size: 80px;
-  }
-}
-
-.cover-discription {
-  position: absolute;
-  top: 48%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  z-index: 3;
   text-align: center;
   font-weight: 700;
   font-family: "Roboto Condensed", sans-serif;
@@ -312,11 +310,8 @@ img {
 }
 @media (min-width: 769px) {
   .cover-discription {
-    font-size: 3rem;
-    position: absolute;
-    top: 45%;
-    left: 50%;
     font-size: 48px;
+    margin-top: 4%;
   }
 }
 

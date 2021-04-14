@@ -14,6 +14,7 @@
     color: $base;
     background-size: cover;
     background-position: center;
+    white-space: nowrap;
     @media (min-width: 769px) {
         height: 760px;
         box-sizing: border-box;
@@ -23,50 +24,44 @@
 
 .cover-title {
     position: absolute;
-      top: 45%;
-      left: 50%;
-      -ms-transform: translate(-50%,-50%);
-      -webkit-transform: translate(-50%,-50%);
-      transform: translate(-50%,-50%);
-    margin: 0;
-    padding: 0;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
     z-index: 2;
-    width: 100%;
     text-align: center;
     font-weight: 700;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 32px;
+    white-space: nowrap;
     @media (min-width: 769px) {
-        font-size: 5rem;
-        margin-top: 8rem;
-        position: absolute;
-          top: 25%;
-          left: 50%;
-          font-size: 80px;
+    font-size: 80px;
     }
 }
 
 .cover-discription {
-        position: absolute;
-        top: 48%;
-        left: 50%;
-        -ms-transform: translate(-50%,-50%);
-        -webkit-transform: translate(-50%,-50%);
-        transform: translate(-50%,-50%);
-        z-index: 3;
-        text-align: center;
-        font-weight: 700;
-        font-family: 'Roboto Condensed', sans-serif;
-        font-size: 24px;
-        white-space: nowrap;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    z-index: 2;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    white-space: nowrap;
     @media (min-width: 769px) {
-        font-size: 3rem;
-        position: absolute;
-        top: 45%;
-        left: 50%;
-        font-size: 48px;
-        }
+    font-size: 48px;
+    margin-top: 4%;
     }
+}
 
 
 // 下層ページカバー
